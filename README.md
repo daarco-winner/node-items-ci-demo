@@ -13,3 +13,5 @@ and a nonnegative safe integer quantity. Invalid input exits with code 1.
 
 Pull requests run the tests on their exact head commit using GitHub-hosted
 runners. Passing tests do not authorize a merge. Human review is required.
+
+This change checks the pull request test workflow.
