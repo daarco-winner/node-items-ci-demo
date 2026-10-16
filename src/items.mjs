@@ -14,3 +14,8 @@ export function totalQuantity(items) {
   }
   return total;
 }
+
+export function summarizeItems(items) {
+  const total = totalQuantity(items);
+  return { totalQuantity: total, itemCount: items.length };
+}
